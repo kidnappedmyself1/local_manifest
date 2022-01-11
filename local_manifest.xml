@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
 
-        <remote name="ks"
-                fetch="https://github.com/kidnappedmyself1" />
-        <remote name="clang"    
-                fetch="https://github.com/kdrag0n" />
+        <remote name="sayooxx"
+
+                fetch="https://github.com/sayooxx" />
+
         <remote name="aj"
+
                 fetch="https://github.com/ajitlenka30" />
+
                     
 
-        <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="ks" revision="snow" />
-        <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="ks" revision="elixir" />
+        <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="sayooxx" revision="snow" />
+
+        <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="sayooxx" revision="elixir" />
+
         <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="aj" revision="12" />
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" />
+
+       
 
 </manifest>
