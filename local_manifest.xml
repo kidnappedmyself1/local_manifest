@@ -6,25 +6,12 @@
 
                 fetch="https://github.com/kidnappedmyself1" />
 
-        <remote name="aj"
+      
+        <project path="device/samsung/m51" name="android_device_samsung_m51" remote="kidnappedmyself1" revision="los-18.1_a11" />
 
-                fetch="https://github.com/ajitlenka30" />
-        
-        <remote name="xrp"
+        <project path="vendor/samsung/m51" name="android_vendor_samsung_m51" remote="kidnappedmyself1" revision="ten" />
 
-                fetch="https://github.com/itsxrp" />
-                    
+        <project path="kernel/samsung/m51" name="android_kernel_samsung_m51" remote="kidnappedmyself1" revision="eleven_M515FXXU2CUB7" />
 
-        <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="kidnappedmyself1" revision="snow" />
-
-        <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="kidnappedmyself1" revision="elixir" />
-
-        <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="aj" revision="12" />
-
-        <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="xrp" revision="arrow-12.0-caf-sm8150" />
-        
-        <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="xrp" revision="arrow-12.0-caf-sm8150" />
-
-       <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="xrp" revision="arrow-12.0-caf-sm8150" />
 
 </manifest>
