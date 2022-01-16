@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
 
-        <remote name="kidnappedmyself1"
-
+        <remote name="sayooxx"
+                fetch="https://github.com/sayooxx" />
+        <remote name="kd"
                 fetch="https://github.com/kidnappedmyself1" />
+        <remote name="aj"
+                fetch="https://github.com/ajitlenka30" />
+        <remote  name="clang"
+                fetch="https://github.com/kdrag0n" />
+        <remote  name="potato"
+                fetch="https://gitlab.com/potatodevices" />
+        
 
-      
-        <project path="device/samsung/m51" name="android_device_samsung_m51" remote="kidnappedmyself1" revision="los-18.1_a11" />
-
-        <project path="vendor/samsung/m51" name="android_vendor_samsung_m51" remote="kidnappedmyself1" revision="ten" />
-
-        <project path="kernel/samsung/m51" name="android_kernel_samsung_m51" remote="kidnappedmyself1" revision="eleven_M515FXXU2CUB7" />
-
-
+        <project path="device/xiaomi/sweet" name="S_device_xiaomi_sweet" remote="kd" revision="awaken" />
+        <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="sayooxx" revision="elixir" />
+        <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sweet" remote="aj" revision="12" />
+        <project path="vendor/google/gms" name="vendor_google_gms" remote="potato" revision="frico-release" />
+        
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" />
+        
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        
+        <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
+        <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
+        <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="sayooxx" revision="arrow-12.0-caf-sm8150" />
+        
 </manifest>
